@@ -1,0 +1,9 @@
+TP Système de blog - SALHI Melissa
+
+1. Copier le dossier "blog" dans C:\xampp\htdocs\
+2. Télécharger Smarty 4.x (github.com/smarty-php/smarty/releases) et copier son dossier "libs"
+   dans blog\libs  (on doit avoir blog\libs\Smarty.class.php)
+3. Démarrer Apache + MySQL (XAMPP), importer sql/blog.sql dans phpMyAdmin
+4. Adapter si besoin $user / $mdp dans config_blog.php
+5. Ouvrir http://localhost/blog/editer_blog.php pour créer un billet,
+   puis http://localhost/blog/index_blog.php
